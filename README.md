@@ -1,22 +1,19 @@
 # ECON21020 - Econometrics 
 
-This repository contains my materials for ECON21020 - Econometrics at the University of Chicago. This repo is aimed at providing a comprehensive guide to the course, containing various visualizations, recordings from the discussion sections, and other materials.
+This repository contains my materials for ECON21020 - Econometrics at the University of Chicago. This repo is a complementary resource for you in addition to the offical course website. It contains various visualizations, recordings from the discussion sections, and other materials.
 
 If you have any questions, please do not hesitate to reach out to me at [posmikdc@uchicago.edu](mailto:posmikdc@uchicago.edu). 
 
-## Table of Contents
-
-1. [Course Overview](#course-overview)
-2. [Course Materials](#course-materials)
-3. [Discussion Sections](#discussion-sections)
-4. [Homework Assignments](#homework-assignments)
-5. [Midterm and Final Exams](#midterm-and-final-exams)
-6. [Final Project](#final-project)
-7. [Resources](#resources)
-
 ## Course Overview
 
-ECON21020 is an introductory course in econometrics. The course is designed to provide students with a solid understanding of the basic tools of econometrics. The course will cover the following topics:
+In the following folders, you can find supplementary teaching material I use for the course. The material is organized by chapters. 
+
+- [Chapter 1](/chapter1): Overview
+- [Chapter 2](/chapter2): The simple regression model
+- [Chapter 3](/chapter3): Multiple linear regression model
+- [Chapter 4](/chapter4): Panel Data Methods (Preview)
+- [Chapter 5](/chapter5): Instrumental Variables and 2SLS
+- [Chapter 6](/chapter6): Limited Dependent Variable Models
 
 ## Course Materials
 
@@ -34,12 +31,8 @@ The homework assignments are available on [Canvas]().
 
 The midterm and final exams are available on [Canvas](). Please refer to the syllabus for the exam dates.
 
-## Final Project
-
-The final project is available on [Canvas](). Please refer to the syllabus for the project due date.
-
 ## Resources
 
-I recommend the following resources are available for the course:
+Outside of the recommended material, I recommend the following resources: 
 
 - [Wooldridge, J. M. (2019). Introductory econometrics: A modern approach. Cengage Learning.](https://www.cengage.com/c/introductory-econometrics-a-modern-approach-7e-wooldridge)
