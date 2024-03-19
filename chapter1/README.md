@@ -24,6 +24,14 @@ Generally,
 
 ![t-, F-, and \chi^2 distributions](https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.minitab.com%2Fen%2Fstatistics-in-the-field%2Fa-field-guide-to-statistical-distributions&psig=AOvVaw1pp-c5eYSInm539tdEK6bp&ust=1710960734197000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKilksj_gIUDFQAAAAAdAAAAABAJ)
 
+**TLDR**; If you want to remember the key mathematical relationship between the t- and F-distribution, remember:
+
+$$
+\text{If } t \sim t_{(\text{df})}, \text{ then } t^2 \sim F_{(1,\text{df})}
+$$
+
+where 1 is the degrees of freedom from the numerator (Recall: $F = \frac{U/\text{df}_1}{V/\text{df}_2}$) where $U,V \sim \chi^2(\text{df}_1), \chi^2(\text{df}_2)$
+
 ### Hypothesis Testing
 
 One thing I can only recommend to you is to refamiliarize yourself with the basics of hypothesis testing. 
