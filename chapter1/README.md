@@ -32,7 +32,7 @@ $$
 \text{If } t \sim t_{(\text{df})}, \text{ then } t^2 \sim F_{(1,\text{df})}
 $$
 
-where 1 is the degrees of freedom from the numerator (Recall: $F = \frac{U/\text{df}_1}{V/\text{df}_2}$) where $U,V \sim \chi^2_(\text{df}_1), \chi^2_(\text{df}_2)$. Read more [here](https://online.stat.psu.edu/stat415/lesson/4/4.2).
+where 1 is the degrees of freedom from the numerator (Recall: $F = \frac{U/\text{df}_1}{V/\text{df}_2}$ where $U,V \sim \chi^2_(\text{df}_1), \chi^2_(\text{df}_2)$ ). Read more [here](https://online.stat.psu.edu/stat415/lesson/4/4.2).
 
 ### Hypothesis Testing
 
