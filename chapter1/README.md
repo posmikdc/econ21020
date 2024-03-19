@@ -22,7 +22,9 @@ Generally,
 - The **F distribution** is used--amongst other things--when comparing two or more means. Analogously, the F distribution characterizes the distribution of F statistics. You may see immediately see how this is could be important in regression analysis with multiple terms.
 - The $\chi ^2$ **distribution** is a statistical workhorse and can play multiple roles. It is derived by adding together standard normal RVs and can serve purposes like comparing the relationship between two categorical variables, goodness-of-fit tests, and tests for homogeneity of variances.
 
-![t-, F-, and \chi^2 distributions](https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.minitab.com%2Fen%2Fstatistics-in-the-field%2Fa-field-guide-to-statistical-distributions&psig=AOvVaw1pp-c5eYSInm539tdEK6bp&ust=1710960734197000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKilksj_gIUDFQAAAAAdAAAAABAJ)
+<img src="tfchisq-distr.png"/>
+
+[Image source](https://blog.minitab.com/en/statistics-in-the-field/a-field-guide-to-statistical-distributions)
 
 **TLDR**; If you want to remember the key mathematical relationship between the t- and F-distribution, remember:
 
@@ -38,7 +40,9 @@ One thing I can only recommend to you is to refamiliarize yourself with the basi
 
 I found this figure very helpful. Are you able to define what a p-value is from it? 
 
-![Hypothesis Testing](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2F5-ways-to-increase-statistical-power-377c00dd0214&psig=AOvVaw3mJivfCNHWCWE-RE3DbWPp&ust=1710960363430000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCODmo5f-gIUDFQAAAAAdAAAAABAT)
+<img src="hypothesis-testing.png"/>
+
+[Image source](https://towardsdatascience.com/5-ways-to-increase-statistical-power-377c00dd0214)
 
 
 
