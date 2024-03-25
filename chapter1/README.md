@@ -43,6 +43,7 @@ The Law of Large Numbers (LLN) and Central Limit Theorem (CLT) are amongst the m
 - **Central Limit Theorem**: Regardless of the underlying sampling distribution, if our sample becomes large enough, the means from the random samples (sampling distribution of the mean) will approximate a normal Gaussian distirbution. 
 
 <img src="clt.png"/> 
+[Source: Medium.com Article](https://medium.com/analytics-vidhya/law-of-large-numbers-vs-central-limit-theorem-7819f32c67b2)
 
 ### Probability Distributions 
 
@@ -51,8 +52,6 @@ Have you ever looked at the pdf for the normal distribution and thought to yours
 You are looking at a mind map that starts with the derivation of the Gaussian pdf (in a very rudimentary/intuitive sense) and leads into how various important distributions connect to one another and the Gaussian. There are many important distributions missing of course since the Clutter-Clarity trade-off is real! 
 
 <img src="prob-relations.png"/> 
-
-[Source: Medium.com Article](https://medium.com/analytics-vidhya/law-of-large-numbers-vs-central-limit-theorem-7819f32c67b2)
 
 One thing to take away from this is that the probability distributions that we talk about in class are not "God-given". Statisticians--over centuries--derived them from one another and built a repertoire of various distributions that serve different purposes. As you can see, the normal distribution sits at the literal and figurative center of them all. There is a very good reason for that--and it is related to something called the **Central Limit Theorem**--but we shall postpone this discussion to a later point. If you are interested in learning about how the probability density function for a normal random variable was derived, check out this [great YouTube video by 3b1b.](https://www.youtube.com/watch?v=cy8r7WSuT1I) and [this Medium post](https://medium.com/@curiousincosmos).
 
