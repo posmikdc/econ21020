@@ -11,7 +11,45 @@ Rest assured, that even if you currently feel like this ...
 
 ## Method of Moments and Analogy 
 
+### Population moments 
 
+You can think of moments with the following analogy: 
+
+Suppose you want to describe your dream house to somebody. You may talk about the color of the house, the size, certain features, etc. Particularly, let's say you want to convey that you particularly love houses that have a light color. You may use analogies to describe the color, i.e. you might say something like "I like a house that radiates a happy vibe". 
+
+In method of moments, your house is some data $X$ and you want to summarize certain features about the data. The first moment is the mean, the second moment is the variance (spread) of the data, the third moment is the skewness, the fourth moment is the kurtosis, etc. 
+
+### The Analogy principle
+
+Now, these are population moments. Think about them as when you are touring your house and you see all the things you like, but the person you are describing the house to is not there with you. You need to come up with summaries about the house, i.e. the color is light, to convey the general idea of the house to the person without them actually being there. That is what the analogy principle represents. 
+
+In the sense of the analogy principle, you are equating the population moment with a sample moment/ sample analogue. We do this because it is not possible to estimate population moments without ... well ... having access to the entire population. The sample moments "estimate" the population moments. 
+
+For instance, our sample mean $\bar{X}$ is the sample moment for our population mean $\mathbb{E}(X) = \mu$. 
+
+In a nutshell, the analogy principle enables us to describe properties of our data without having access to the entire population. That is very, very important and powerful. In a way, it is so intuitive that making this thought explicit could confuse you by itself. Like of course we don't have access to all population data points, so naturally we work with sample analogues. 
+
+### Setting up an Example (PSet 2, Q6)
+
+Our setup is as follows: Suppose we have iid data $\{X_1, X_2, \cdots, X_n\}$ s.t. $X_i \sim \mathcal{N}(\theta_1, \theta_2)$. Write out the method of moments estimators for $\theta_1, \theta_2$. 
+
+Note that our "theoretical" (In the population sense) **about the origin** are given by:
+
+- $\mathbb{E}(X_i) = \theta_1$
+- $\mathbb{E}(X_i^2) - [\mathbb{E}(X_i)]^2 := \text{Var}(X_i) = \theta_2$
+
+Note that the expression for the variance is as derived as follows because we are taking the second moment **about the origin**. Naturally, if you have $\mathbb{E}(X_i) = 0$, i.e. a distribution centered at zero (that requires a mean parameter), we _could_ just write $\mathbb{E}(X^2) = \theta_2$. You will see this sometimes and I don't want you to get confused, that's why I am mentioning it. 
+
+Now, to compute the method of moments estimators we can just equate (by the analogy principle): 
+
+- $\mathbb{E}(X_i) = \theta_1 \implies \hat{\theta}_1^{MM} = {1/n} \sum_{i=1}^{n} X_i$ 
+- $\mathbb{E}(X_i^2) - [\mathbb{E}(X_i)]^2 := \text{Var}(X_i) = \theta_2 \implies \hat{\theta}_2^{MM} = {1/n} \sum_{i=1}^{n} X_i^2 - \left(\frac{1}{n} \sum_{i=1}^{n} X_i \right)^2$
+
+Boom, done! 
+
+### Visualizing the first moment
+
+<img src="http://misswise.weebly.com/uploads/1/8/2/0/18209119/7133605.jpg?418"> 
 
 ## Identification 
 
@@ -33,6 +71,12 @@ A couple of notes on this definition:
     - Moments are a statistical theorists way to characterize our data in different ways, i.e. a first moment $\mathbb{E}(X)$ characterizes where a distribution is centered, a second moment $\mathbb{E}(X^2)$ characterizes how spread out data is. Higher moments characterize different things, such as skewness and kurtosis. 
     - Truth be told, I have never heard anyone use anything higher than a fourth moment, the heaviness of a distributions tail "Kurtosis", although a 5th and 6th moment exist in practice.  
 
+In general, on a fundamental level, note that identification $\neq$ statistical estimation. It is a logical step that needs to be given before estimation even starts. 
+
+<img src="https://causalinference.gitlab.io/assets/Figures/Chapter3/Ch3_Fig_IV.png">
+
+### An Example: PSet 2, Ex. 5d 
+
 Now, let us take a look at Ex. 5d on PSet 2. It is on the technical side, so I want to make sure we can tie its learning objectives into the intuition you are building. 
 
 From Definition 2 on PSet 2, we have: 
@@ -49,8 +93,6 @@ Again, let us dive deeper into what this means:
     - If this equality is not true (that's when we have identification), our CDF is indeed monotonically increasing (Awesome)
     - Think: We want our parameters to be **unique** functions of our data. If we don't have this 1-to-1 mapping, we cannot uniquely identify our parameter via a combination "of the moments of the distribution of the data" 
     - So when formally checking whether a set of parameters is not identifiable, we can just check whether this equality is true! 
-
-### PSet 2, Ex. 5d 
 
 So, let's apply these thoughts to PSet 2, Exercise 5d 
 
